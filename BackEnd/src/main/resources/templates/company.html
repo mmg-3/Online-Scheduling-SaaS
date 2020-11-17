@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+<div class="container">
+
+    <h2>Search for Service</h2>
+    <form th:object="${company}" th:action="@{/company}" method="get">
+        <input type="text" name="search" id="search" th:value="${search}"/>
+        <input type="submit" value="Search"/>
+        <div th:if="${not #lists.isEmpty(search)}">
+            <h2>Company List</h2>
+            <table class="table table-striped">
+                <tr>
+			        <th>Company Id</th>
+			        <th>Company Name</th>
+			        <th>Service Name</th>
+			    </tr>
+			    <tr th:each = "company: ${search}">
+			        <td th:text="${company.company_id}">vasile</td>
+			        <td th:text="${company.company_name}">45</td>
+			        <td th:text="${company.service_name}">45</td>
+			        <a href="/createBooking">Make a booking</a>
+			    </tr>
+            </table>
+       </div>
+    </form>
+</div>
+</body>
+

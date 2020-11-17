@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2>Bookings</h2>
+<table border="1">
+    <tr>
+        <th>Id</th>
+        <th>Date</th>
+        <th>Time</th>
+        <th>Service Name</th>
+        <th>Worker Name</th>
+
+
+    </tr>
+    <tr th:each = "booking: ${booking}">
+        <td th:text="${booking.booking_id}">vasile</td>
+        <td th:text="${booking.date}">45</td>
+        <td th:text="${booking.time}">45</td>
+        <td th:text="${booking.serviceName}">45</td>
+        <td th:text="${booking.workerName}">45</td>
+                   
+    </tr>
+</table>
+</body>
+</html>

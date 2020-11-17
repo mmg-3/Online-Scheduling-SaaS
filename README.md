@@ -1,17 +1,12 @@
-# RMIT SEPT 2020 Major Project
+# Major Project
 
 # Group 00
 
-## Members
-* Mark Johnson (s3680805)
-* Muhammad Ali Tariq (s377986)
-* Ryan Kelly (s3661678)
-* Kaushal Gawri(s3777121)
-* Prabhav Mohit Mehra (s3743761)
+
 
 ## Records
 
-* Github repository : https://github.com/RMIT-SEPT/majorproject-8-mon-17-30-3.git
+* Github repository : https://github.com/s3743761/AzureBookingSystem.git
 * Trello Board : https://trello.com/c/eMCTtEMV/67-muhammad-ali-tariq-s3779826
 * Docker Image : https://hub.docker.com/repository/docker/s3777121/booking/general
 ###### The Backend is deployed on aws - Elastic Beans, This might not work as it is required to deploy the front end as well and then run them on the same port to integrate

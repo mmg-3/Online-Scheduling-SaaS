@@ -1,8 +1,5 @@
 # Major Project
 
-# Group 00
-
-
 
 ## Records
 

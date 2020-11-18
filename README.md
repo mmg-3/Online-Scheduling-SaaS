@@ -14,4 +14,4 @@
 ## Code documentation
 
 [Quick Start](/docs/README.md) in `docs` folder
-# AzureBookingSystem
+# AgmeBookingSystem

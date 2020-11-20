@@ -19,7 +19,7 @@ design, develop, test and deploy an application named ”Online Ap-pointment Boo
 - Java
 - NodeJS
 - React
-- mySQL
+- MySQL
 
 
 ## Code documentation

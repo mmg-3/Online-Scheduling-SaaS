@@ -14,7 +14,15 @@
 design, develop, test and deploy an application named ”Online Ap-pointment Booking System”. This is a web application booking system that can be usedby any service provider, allowing customers to book 24/7 a time slot for an appointmentfor a specific service with an assigned service provider. Thesystem can be for any busi-ness, e.g., a hairdresser, a gym, a dentist and so on. The application provides an openAPI to the business provider, so the business provider can integrate it into their publicwebsite. 
 
 
+# Pre-requisites
+
+- Java
+- NodeJS
+- React
+- mySQL
+
+
 ## Code documentation
 
 [Quick Start](/docs/README.md) in `docs` folder
-# AgmeBookingSystem
+

@@ -1,21 +1,13 @@
 
+## Online Appointment System
 
-## Records
+A SaaS booking system that can be used by any service provider, a hairdresser, a gym, and a dentist. Customers can easily book an appointment in the alloted time slots, and administrators can manage the entire process in-house. 
 
-* Trello Board : https://trello.com/b/zVSoPDdk/agmebooking
+We also provide an API to the service provider, so that the functionality can easily be integrated with any existing website. 
 
-* The Backend is deployed on aws - Elastic Beans, This might not work as it is required to deploy the front end as well and then run them on the same port to integrate
-* Also, there's a chance the environment is terminated so that we don't end up losing all the credits just yet.
+## Tech Stack
 
-# Description
-
-design, develop, test and deploy an application named ”Online Appointment Booking System”. This is a web application booking system that can be usedby any service provider, allowing customers to book 24/7 a time slot for an appointmentfor a specific service with an assigned service provider. The system can be for any business, e.g., a hairdresser, a gym, a dentist and so on. The application provides an open API to the business provider, so the business provider can integrate it into their public website. 
-
-
-# Pre-requisites
-
-- Java
-- NodeJS
+- Java (Spring Boot)
 - React
 - MySQL
 
@@ -23,4 +15,6 @@ design, develop, test and deploy an application named ”Online Appointment Book
 ## Code documentation
 
 [Quick Start](/docs/README.md) in `docs` folder
+
+* Trello Board : https://trello.com/b/zVSoPDdk/agmebooking
 
